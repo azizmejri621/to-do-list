@@ -1,0 +1,48 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 19px;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-family: system-ui;
+    color : steelblue;
+}
+#text{
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    font-size  :  15px;
+}
+#text:hover {
+   border-color :   steelblue;
+}
+#btn-1 {
+    padding: 10px;
+    height: 41px;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+}
+#btn-1:hover{
+   color : steelblue ;
+   cursor: pointer;
+}
+.btn{
+        font-size: 17px;
+        border : none;
+        background: transparent;
+}
+.btn:hover{
+    color: steelblue;
+    cursor: pointer;
+}
